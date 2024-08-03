@@ -5,29 +5,29 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <!-- Primary Meta Tags -->
-  <title>HIT MOMENTS | Home Page</title>
-  <meta name="title" content="HIT MOMENTS | Home Page" />
+  <title>HIT MOMENTS</title>
+  <meta name="title" content="HIT MOMENTS" />
   <meta name="description" content="HIT MOMENTS - Home Page is the home page of a social networking application that allows users to post photos to friends and family." />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://hitmoments.com" />
-  <meta property="og:title" content="HIT MOMENTS | Home Page" />
+  <meta property="og:title" content="HIT MOMENTS" />
   <meta property="og:description" content="HIT MOMENTS - Home Page is the home page of a social networking application that allows users to post photos to friends and family." />
   <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://hitmoments.com" />
-  <meta property="twitter:title" content="HIT MOMENTS | Home Page" />
+  <meta property="twitter:title" content="HIT MOMENTS" />
   <meta property="twitter:description" content="HIT MOMENTS - Home Page is the home page of a social networking application that allows users to post photos to friends and family." />
   <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
 <!-- Meta Tags Generated with https://metatags.io -->
 
   <!-- Favicons -->
-  <link href="./assets/img/logo.ico" rel="icon">
-  <link href="./assets/img/logo.ico" rel="apple-touch-icon">
+  <link href="./assets/img/logo/logo.ico" rel="icon">
+  <link href="./assets/img/logo/logo.ico" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -39,7 +39,8 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -60,7 +61,7 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="./assets/img/logo.png" alt="">
+        <img src="./assets/img/logo/logo.ico" alt="">
         <h1 class="sitename">HIT MOMENTS</h1>
       </a>
 
@@ -92,7 +93,7 @@
             <p>Sharing your moments to the world</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Get Started</a>
-              <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
@@ -146,15 +147,17 @@
               }
             }
           </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="./assets/img/node.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/img/express.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/img/MongoDB_Logo.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/img/dart.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/img/flutter.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/img/vue.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="./assets/img/react.png" class="img-fluid" alt=""></div>
-          </div>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/img/node.png" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+                <div class="swiper-slide"><img src="./assets/img/express.png" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+                <div class="swiper-slide"><img src="./assets/img/MongoDB_Logo.jpg" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+                <div class="swiper-slide"><img src="./assets/img/dart.png" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+                <div class="swiper-slide"><img src="./assets/img/flutter.png" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+                <div class="swiper-slide"><img src="./assets/img/vue.jpg" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+                <div class="swiper-slide"><img src="./assets/img/react.png" class="img-fluid" alt="" style="height: 90px; width: 190px;"></div>
+            </div>
+        </div>
         </div>
 
       </div>
@@ -375,7 +378,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Nguyen Tien Duy</h4>
                 <span>Mentor / Project Manager</span>
@@ -392,7 +395,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/anhG.png" class="img-fluid" alt="" style="width: 150px; height: 150px;"></div>
+              <div class="pic"><img src="./assets/img/team/anhG.png" class="img-fluid" alt="" style="width: 150px; height: 150px;"></div>
               <div class="member-info">
                 <h4>Do Ngoc Giang</h4>
                 <span>Mentor / Project Manager</span>
@@ -409,7 +412,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Dinh Thi</h4>
                 <span>Frontend Developer</span>
@@ -425,9 +428,9 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/anh1.jpg" style="width: 150px; height: 150px;" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/anh1.jpg" style="width: 150px; height: 150px;" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Le Van Son</h4>
+                <h4>Nguyen Duy Son</h4>
                 <span>Frontend Developer</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -441,7 +444,7 @@
           
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/btd.jpg" style="height: 150px;" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/btd.jpg" style="height: 150px;" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Mai Xuan Bac</h4>
                 <span>Frontend Developer</span>
@@ -457,7 +460,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/tung.jpg" style="height: 150px; width: 150px;" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/tung.jpg" style="height: 150px; width: 150px;" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Nguyen Duc Tung</h4>
                 <span>Backend Developer</span>
@@ -474,7 +477,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/james2.png" style="height: 150px; width: 150px;" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/james2.png" style="height: 150px; width: 150px;" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Nguyen Tien Dung</h4>
                 <span>Backend Developer</span>
@@ -491,7 +494,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="./assets/img/huy.jpg" style="height: 150px" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="./assets/img/team/huy.jpg" style="height: 150px" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Ha Huy</h4>
                 <span>Backend Developer</span>
@@ -656,7 +659,7 @@
 
         <div class="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <p>Follow us to experience more good products from us</p>
           <div class="social-links d-flex">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -699,6 +702,34 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                480: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 40,
+                }
+            }
+    });
+</script>
 
 </body>
 

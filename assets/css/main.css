@@ -590,8 +590,8 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--surface-color);
+  border-color: var(--surface-color);
 }
 
 .footer h4 {
@@ -615,7 +615,7 @@ h6 {
   margin-right: 3px;
   font-size: 12px;
   line-height: 0;
-  color: var(--accent-color);
+  color: var(--surface-color);
 }
 
 .footer .footer-links ul li {
@@ -635,7 +635,7 @@ h6 {
 }
 
 .footer .footer-links ul a:hover {
-  color: var(--accent-color);
+  color: var(--surface-color);
 }
 
 .footer .footer-about a {
@@ -663,6 +663,14 @@ h6 {
 .footer .credits {
   margin-top: 6px;
   font-size: 13px;
+}
+
+.footer .credits a {
+  color: #ffc107;
+}
+
+.footer .credits a:hover {
+  color: var(--heading-color);
 }
 
 /*--------------------------------------------------------------
@@ -950,6 +958,16 @@ section,
   }
 }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
@@ -965,11 +983,15 @@ section,
   height: auto;
 }
 
+.clients .swiper-wrapper img {
+  width: 190px;
+}
+
 .clients .swiper-slide img {
   transition: 0.3s;
   padding: 0 10px;
   height: 90px;
-  width: 250px;
+  width: 190px;
 }
 
 .clients .swiper-slide img:hover {
@@ -993,7 +1015,7 @@ section,
 .about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--accent-color);
+  color: var(--surface-color);
 }
 
 .about .read-more {
@@ -1632,6 +1654,7 @@ section,
 @media (max-width: 575px) {
   .contact .info-wrap {
     padding: 20px;
+    border-radius: 15px;
   }
 }
 
@@ -1682,6 +1705,7 @@ section,
 @media (max-width: 575px) {
   .contact .php-email-form {
     padding: 20px;
+    border-radius: 15px;  
   }
 }
 
