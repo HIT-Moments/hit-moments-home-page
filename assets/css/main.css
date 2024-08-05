@@ -207,10 +207,6 @@ h6 {
   .container span , p {
     font-size: 16px;
   }
-  .notification.show , .notification-2.show {
-    font-size: 8px;
-    font-weight: 400;
-  }
 }
   
 /* Index Page Header
@@ -1881,6 +1877,7 @@ section,
 }
 
 .notification, .notification-2 {
+  width: 500px;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
